@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="online education, online tuition, e learning, educational games">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+    <!-- google font link -->    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Coursify</title>
+    
+    </head>
+    
+    <body>
+
+    <!--START OF NAVBAR SECTION -->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand mb-0 h1" href="https://www.coursify.com">
+                <img id="nav-logo" src="img/navbar/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Boards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Exams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Why us?</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Up</button>
+                </form>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        
+       
+<!-- expant it when you need toggle option
+        <div id="navbarToggleExternalContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Boards</a>
+                </li>
+                    <li class="nav-item">
+                <a class="nav-link" href="#">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Exams</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Why us?</a>
+                </li>
+            </ul>
+        </div>
+-->
+        
+<!-- END OF NAVBAR SECTION -->
+        
+<!-- START OF HEADER SECTION 1 -->
+        
+    <div class="container-fluid" id="startHeader1">
+        <div class="row">
+            <div class="col"> 
+                <h1>Every student matters</h1>
+                <h3>Get your doubts clarified and attend LIVE classes in the language of your choice</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Search your doubt here">
+                    </div>
+                </form>
+                <a class="btn btn-primary" href="#" role="button">Get the free app on Play Store</a>
+            </div>
+            <div class="col" id="headerImageSection"> 
+                <img src="img/header/img1.jpg"><!-- use images of 400x267px -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="noCounting">
+                <div class="col noCounting">
+                    <img src="img/header/student.png" height="70px" width="70px">
+                    <h3 ><span class="count">400100</span>+</h3>
+                        
+                    <script>                      
+                        $({ Counter: 0 }).animate({
+                            Counter: $('.count').text()
+                        }, {
+                            duration: 1000,
+                            easing: 'swing',
+                            step: function() {
+                            $('.count').text(Math.ceil(this.Counter));
+                        }
+                        });
+                    </script>
+                        
+                    <h5>satisfied atudents</h5> 
+                </div>
+                    
+                <div class="col noCounting">
+                    <img src="img/header/download.png" height="70px" width="70px">
+                    <h3><span class="count2">1001000</span>+</h3>
+                        
+                    <script>                      
+                            $({ Counter: 0 }).animate({
+                                Counter: $('.count2').text()
+                            }, {
+                                duration: 1000,
+                                easing: 'swing',
+                                step: function() {
+                                    $('.count2').text(Math.ceil(this.Counter));
+                                }
+                            });
+                    </script>
+                        
+                    <h5>video lectures</h5>    
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- END OF HEADER SECTION 1 -->
+         
+<!-- START OF BODY SECTION 1 -->
+<section class="services-area">
+    <div class="container" id="bodySection1">
+        <div class="container services-list">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="services" id="curced-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">LIVE Classes</h4>
+                            <h3 class="card-text text-secondary">
+                                Learn live from<br>the best tutors<br>in India
+                            </h3>
+                        </div>
+                        <button type="button" class="btn bodysec-1-btn">Book Now</button>
+                    </div>
+                </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="services" id="curced-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Earn Cash</h4>
+                            <h3 class="card-text text-secondary">
+                                Ask doubts<br>Answer Qestions<br>Earn Money!
+                            </h3>
+                        </div>
+                        <button type="button" class="btn bodysec-1-btn">Explore</button>
+                    </div>
+                </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="services" id="curced-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Exam Preparation</h4>
+                            <h3 class="card-text text-secondary">
+                               JEE Mains<br>JEE Advanced<br>NEET
+                            </h3>
+                        </div>
+                        <button type="button" class="btn bodysec-1-btn">Explore</button>
+                    </div>
+                </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="services" id="curced-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Sample tests</h4>
+                            <h3 class="card-text text-secondary">
+                              Test with detailed analysis national ranking
+                            </h3>
+                        </div>
+                        <button type="button" class="btn bodysec-1-btn">Explore</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END OF BODY SECTION 1 -->
+       
+<!-- START OF BODY SECTION 2 -->
+        <div class="container">
+            <h1 class="bodySectionHeading">Study materials of 50+ State Boards</h1>
+            <div class="row" id="body-sec2-border-div">
+                <div class="col-lg-3 col-md-6 col-sm-12" id="body2">
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12" id="body2">
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12" id="body2">
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12" id="body2">
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a><br>
+                    <a href="https://apbe.co.in/"><img src="img/body/body2.png" height="50px" width="50px"> Andhra Pradesh</a>
+                </div>
+            </div>
+        </div>
+<!-- END OF BODY SECTION 2 -->
+        
+<!-- START OF BODY SECTION 3 -->
+        <div class="container bodySection3">
+            <h1 class="bodySectionHeading">Exams that you can ace with Coursify</h1>
+            <div class="row">
+                <div class="col" id="body2">
+                    
+                        <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" id="modalButton">Board Exams
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Board Exams</h5>
+                                </div>
+                                <div class="modal-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+                                    <button type="button" class="btn btn-primary">Go!</button>
+                                </div>                                </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col" id="body2">
+                    
+                <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" id="modalButton">JEE Mains &amp; Advanced
+                    </button>
+
+                <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">JEE Mains &amp; Advanced</h5>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+                                    <button type="button" class="btn btn-primary">Go!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col" id="body2">
+                <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" id="modalButton">NEET</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">NEET</h5>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+                                    <button type="button" class="btn btn-primary">Go!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- END OF BODY SECTION 3 -->
+        
+        
+<!-- START OF BODY SECTION 4 -->
+        
+    <div class="container bodySection3">
+        <h1 class="bodySectionHeading">Exams that you can ace with Coursify</h1>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-outline-primary section4-button">Maths</button>
+                <button type="button" class="btn btn-outline-primary section4-button">Science</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-primary section4-button">Physics</button>
+                <button type="button" class="btn btn-outline-primary section4-button">Commerce</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-primary section4-button">Chemistry</button>           <button type="button" class="btn btn-outline-primary section4-button">Coding</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-primary section4-button">Biology</button>
+                <button type="button" class="btn btn-outline-primary section4-button">Languages</button>
+            </div>
+        </div>
+            
+<!-- END OF BODY SECTION 4-->
+            
+<!-- START oF BODY SECTION 5-->
+            
+        <h1 class="bodySectionHeading" style="margin-top: 20px">Free Solutions</h1>
+       
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-outline-primary section5-button">NCERT Solutions</button>
+                <button type="button" class="btn btn-outline-primary section5-button">NCERT Exempla</button>
+                <button type="button" class="btn btn-outline-primary section5-button">Reference Books</button>
+                <button type="button" class="btn btn-outline-primary section5-button">Exam Prep material</button>
+            </div>
+        </div>
+            
+<!-- END F BODY SECTION 5-->
+            
+<!-- START OF BODY SECTION 6-->
+        <h1 class="bodySectionHeading">Testimonials</h1>
+        <div class="row">
+            <div class="card" style="width: 13rem;">
+                <img class="card-img-top" src="img/testimonials/download.jpg" alt="Sophia Smith">
+                <div class="card-body">
+                    <h5 class="card-title">Sophia Smith</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 13rem;">
+                <img class="card-img-top" src="img/testimonials/LYB+People+Profile+(10).jpg" alt="Dale Johnson">
+                <div class="card-body">
+                     <h5 class="card-title">Dale Johnson</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 13rem;">
+                <img class="card-img-top" src="img/testimonials/pexels-photo-415829.jpeg" alt="Olivia Williams">
+                <div class="card-body">
+                    <h5 class="card-title">Olivia Williams</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 13rem;">
+                <img class="card-img-top" src="img/testimonials/pexels-photo-220453.jpeg" alt="Card image cap">
+                <div class="card-body">
+                     <h5 class="card-title">Gabriel Brown</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+                <div class="card" style="width: 13rem;">
+                    <img class="card-img-top" src="img/testimonials/SedonaChinn-scaled.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Isabella Wattson</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+        </div>
+
+        
+<!-- END OF BODY SECTION 6-->
+        <div class="bottomButton">
+             <a class="btn btn-primary" href="#" role="button">Get the free app on Play Store<img src="img/body/130-512.webp"></a>
+        </div>
+        
+    <!-- Optional JavaScript -->
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+        </body>
+</html>
